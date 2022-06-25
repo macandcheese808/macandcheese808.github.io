@@ -398,6 +398,11 @@ color: #17c0eb
   color: rgb(154, 129, 38);
 }
 
+.btns2 button:last-child:hover{
+  background: #000000;
+  color: rgb(154, 129, 38);
+}
+
 .btns2 button:hover{
   color: #fff;
   border: 2px solid rgb(154, 129, 38);
