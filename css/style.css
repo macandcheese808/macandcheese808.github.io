@@ -318,7 +318,7 @@ color: #17c0eb
   margin-bottom: 5px;
 }
 
-/* Button Styling */
+/* First Button Styling */
 .btns{
   margin-top: 20px;
   margin-bottom: 5px;
@@ -349,14 +349,14 @@ color: #17c0eb
 }
 .btns button:first-child:hover{
   background: #000000;
-  color: rgb(255, 200, 0);
-  border: 2px solid rgb(255, 200, 0);
+  color: #8e44ad;
+  border: 2px solid #8e44ad;
 }
 
 .btns button:last-child:hover{
   background: #000000;
-  color: rgb(255, 200, 0);
-  border: 2px solid rgb(255, 200, 0);
+  color: #8e44ad;
+  border: 2px solid #8e44ad;
 }
 
 @media (max-width:1045px){
