@@ -280,9 +280,11 @@ body {
 }
 
 .box .quote i{
-margin-top: 10px;
-font-size: 45px;
-color: #17c0eb
+  margin-top: 10px;
+  font-size: 16px;
+  color: #eb9a17;
+  font-weight: 800;
+  
 }
 .boxpage .box .image{
   margin: 10px 0;
@@ -312,13 +314,14 @@ color: #17c0eb
   font-size: 18px;
   font-weight: 600;
 }
-.rating i{
+.rating{
   font-size: 18px;
   color: #8e44ad;
   margin-bottom: 5px;
+  padding-top: 5px;
 }
 
-/* First Button Styling */
+/* Button Main Styling, Colors With ID */
 .btns{
   margin-top: 20px;
   margin-bottom: 5px;
@@ -326,36 +329,65 @@ color: #17c0eb
   width: 100%;
 }
 .btns button{
-  background: #8e44ad;
   width: 100%;
   padding: 9px 0px;
   outline: none;
-  border: 2px solid #8e44ad;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
-  color: #8e44ad;
   transition: all 0.3s linear;
 }
-.btns button:first-child{
-  background: none;
-  margin-right: 5px;
-  margin-bottom: 15px;
-}
-.btns button:last-child{
+
+/* first button id=1 */
+#button1{
   color: #fff;
-  margin-right: 5px;
-}
-.btns button:first-child:hover{
-  background: #000000;
-  color: #8e44ad;
+  background: #8e44ad;
   border: 2px solid #8e44ad;
 }
 
-.btns button:last-child:hover{
-  background: #000000;
+#button1:hover{
   color: #8e44ad;
+  background: #000000;
+  border: 2px solid #8e44ad;
+}
+
+/* second button id=2 */
+#button2{
+  color: #fff;
+  background: #8e44ad;
+  border: 2px solid #8e44ad;
+}
+
+#button2:hover{
+  color: #8e44ad;
+  background: #000000;
+  border: 2px solid #8e44ad;
+}
+
+/* second button id=3 */
+#button3{
+  color: #fff;
+  background: #8e44ad;
+  border: 2px solid #8e44ad;
+}
+
+#button3:hover{
+  color: #8e44ad;
+  background: #000000;
+  border: 2px solid #8e44ad;
+}
+
+/* second button id=4 */
+#button4{
+  color: #fff;
+  background: #8e44ad;
+  border: 2px solid #8e44ad;
+}
+
+#button4:hover{
+  color: #8e44ad;
+  background: #000000;
   border: 2px solid #8e44ad;
 }
 
