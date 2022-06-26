@@ -360,9 +360,9 @@ body {
 }
 
 #button2:hover{
-  color: #4457ad;
+  color: #617eff;
   background: #000000;
-  border: 2px solid #4457ad;
+  border: 2px solid #617eff;
 }
 
 /* second button id=3 */
@@ -399,9 +399,9 @@ body {
 }
 
 #button5:hover{
-  color: #81036a;
+  color: #ff00d0;
   background: #000000;
-  border: 2px solid #81036a;
+  border: 2px solid #ff00d0;
 }
 
 @media (max-width:1045px){
