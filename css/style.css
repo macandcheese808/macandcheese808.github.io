@@ -317,6 +317,8 @@ color: #17c0eb
   color: #8e44ad;
   margin-bottom: 5px;
 }
+
+/* Button Styling */
 .btns{
   margin-top: 20px;
   margin-bottom: 5px;
@@ -346,67 +348,17 @@ color: #17c0eb
   margin-right: 5px;
 }
 .btns button:first-child:hover{
-  background: #8e44ad;
-  color: #fff;
-}
-
-.btns button:hover{
-  color: #fff;
-}
-@media (max-width:1045px){
-  .boxpage .box{
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-  }
-}
-@media (max-width:710px){
-  .boxpage .box{
-    width: 100%;
-  }
-}
-
-.btns2{
-  margin-top: 20px;
-  margin-bottom: 5px;
-  display: inline-block;
-  width: 100%;
-}
-.btns2 button{
-  background: #8e44ad;
-  width: 100%;
-  padding: 9px 0px;
-  outline: none;
-  border: 2px solid #8e44ad;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 400;
-  color: #8e44ad;
-  transition: all 0.3s linear;
-}
-.btns2 button:first-child{
-  background: none;
-  margin-right: 5px;
-  margin-bottom: 15px;
-}
-.btns2 button:last-child{
-  color: #fff;
-  margin-right: 5px;
-}
-.btns2 button:first-child:hover{
   background: #000000;
-  color: rgb(154, 129, 38);
+  color: rgb(255, 200, 0);
+  border: 2px solid rgb(255, 200, 0);
 }
 
-.btns2 button:last-child:hover{
+.btns button:last-child:hover{
   background: #000000;
-  color: rgb(154, 129, 38);
+  color: rgb(255, 200, 0);
+  border: 2px solid rgb(255, 200, 0);
 }
 
-.btns2 button:hover{
-  color: #fff;
-  border: 2px solid rgb(154, 129, 38);
-}
 @media (max-width:1045px){
   .boxpage .box{
     width: calc(50% - 10px);
