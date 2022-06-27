@@ -15,7 +15,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #7600a9;
+  background: #fe001e;
   border-radius: 5rem;
 }
 
@@ -282,7 +282,7 @@ body {
 .box .quote i{
   margin-top: 10px;
   font-size: 16px;
-  color: #eb9a17;
+  color: #fe001e;
   font-weight: 800;
   
 }
@@ -290,7 +290,7 @@ body {
   margin: 10px 0;
   height: 150px;
   width: 150px;
-  background: #8e44ad;
+  background: #fe001e;
   padding: 3px;
   border-radius: 50%;
 }
@@ -310,13 +310,13 @@ body {
 }
 .box .name_job{
   margin: 10px 0 3px 0;
-  color: #8e44ad;
+  color: #fe001e;
   font-size: 18px;
   font-weight: 600;
 }
 .rating{
   font-size: 18px;
-  color: #8e44ad;
+  color: #fe001e;
   margin-bottom: 5px;
   padding-top: 5px;
 }
@@ -341,9 +341,9 @@ body {
 
 /* first button id=1 */
 #button1{
-  color: #fff;
-  background: #8e44ad;
-  border: 2px solid #8e44ad;
+  color: #fe001e;
+  background: #000000;
+  border: 2px solid #fe001e;
 }
 
 #button1:hover{
@@ -354,9 +354,9 @@ body {
 
 /* second button id=2 */
 #button2{
-  color: #fff;
-  background: #8e44ad;
-  border: 2px solid #8e44ad;
+  color: #fe001e;
+  background: #000000;
+  border: 2px solid #fe001e;
 }
 
 #button2:hover{
@@ -367,9 +367,9 @@ body {
 
 /* second button id=3 */
 #button3{
-  color: #fff;
-  background: #8e44ad;
-  border: 2px solid #8e44ad;
+  color: #fe001e;
+  background: #000000;
+  border: 2px solid #fe001e;
 }
 
 #button3:hover{
@@ -380,9 +380,9 @@ body {
 
 /* second button id=4 */
 #button4{
-  color: #fff;
-  background: #8e44ad;
-  border: 2px solid #8e44ad;
+  color: #fe001e;
+  background: #000000;
+  border: 2px solid #fe001e;
 }
 
 #button4:hover{
@@ -393,9 +393,9 @@ body {
 
 /* second button id=5 */
 #button5{
-  color: #fff;
-  background: #8e44ad;
-  border: 2px solid #8e44ad;
+  color: #fe001e;
+  background: #000000;
+  border: 2px solid #fe001e;
 }
 
 #button5:hover{
