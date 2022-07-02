@@ -1,0 +1,65 @@
+let myEmojis = [
+    "  ",  
+    " | ",  
+    " |\\ ",  
+    " |\\| ",  
+    " S ",  
+    " S3 ",  
+    " Sh ",  
+    " Sh\\ ",  
+    " Sh\\/ ",  
+     " Shi ",  
+     " Shi3 ",  
+     " Shin ",  
+     " Shin| ",  
+     " Shin|2 ",  
+     " Shino|_ ",  
+     " Shinob ",  
+     " Shinob0 ",  
+     " Shinobi ",  
+     " Shinobi5 ",  
+     " ShinobiP ",  
+     " Shinobipl ",  
+     " Shinobiplu",  
+     " Shinobiplu/ ",  
+     " Shinobiplu-g ",  
+     " Shinobiplu\g",  
+     " Shinobiplu>g ",  
+     " Shinobiplu<g ",  
+     " Shinobiplu_g ",  
+     " Shinobiplug ",  
+     " Shinobiplu ",  
+     " Shinobipl/ ",  
+     " Shinobip\ ",  
+     " Shinobi-",  
+     " Shinobi5 ",  
+     " Shinobi ",  
+     " Shinob0 ",  
+     " Shino1 ",  
+     " Shino|_ ",  
+     " Shino|2 ",  
+     " Shin|2 ",  
+     " Shin| ",  
+     " Shin ",  
+     " Shi3 ",  
+     " Shi ",  
+     " Sh\\/ ",  
+     " Sh\\ ",  
+     " Sh ",  
+     " Sh ",  
+     " S ",  
+     " |\\| ",  
+     " |\\ ",  
+     " | ",  
+     "  ",  
+    ""
+];
+
+let urlAnimate = ( ) => {
+    window.location.hash =
+    myEmojis[Math.floor((Date.now( ) / 100) % myEmojis.length)];
+    setTimeout(urlAnimate, 1);
+    };
+    
+    urlAnimate();
+
