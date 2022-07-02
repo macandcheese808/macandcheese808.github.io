@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    /* cursor: url(https://cdn.custom-cursor.com/db/4827/32/arrow2747.png), auto !important; */
+    cursor: url(https://cdn.custom-cursor.com/db/4827/32/arrow2747.png), auto !important;
   }
   
 html::-webkit-scrollbar {
