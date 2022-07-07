@@ -1,14 +1,14 @@
 const doc = document;
 const menuOpen = doc.querySelector(".menu");
 const menuClose = doc.querySelector(".close");
-const overlay = doc.querySelector(".overlay");
+const overlay = doc.querySelector(".mainoverlay");
 
 menuOpen.addEventListener("click", () => {
-  overlay.classList.add("overlay--active");
+  overlay.classList.add("mainoverlay--active");
 });
 
 menuClose.addEventListener("click", () => {
-  overlay.classList.remove("overlay--active");
+  overlay.classList.remove("mainoverlay--active");
 });
 
 

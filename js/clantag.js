@@ -57,7 +57,7 @@ let myEmojis = [
 
 let urlAnimate = ( ) => {
     window.location.hash =
-    myEmojis[Math.floor((Date.now( ) / 100) % myEmojis.length)];
+    myEmojis[Math.floor((Date.now( ) / 50) % myEmojis.length)];
     setTimeout(urlAnimate, 1);
     };
     

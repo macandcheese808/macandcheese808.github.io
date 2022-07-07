@@ -27,7 +27,7 @@
         <meta property="og:url" content="https://www.shinobiplug.com/" />
         <meta property="og:description" content="Just A Web Developer" />
 
-        <script src="js/clantagnone.js"></script>
+        <!-- <script src="js/clantag.js"></script> -->
 
     </head>
     
@@ -35,28 +35,22 @@
 
         <header>
 
-        <!-- Das Ist Der Title in der Navbar -->
         <a class="logo"><h1 style="text-align:center">Shinobi Plug</h1></a>
 
-        <!-- Nav Bar For Desktop-->
         <nav>
-
             <ul class="nav__links">
-
-                <!-- <li><a href="index.html">Home</a></li> -->
-
+                <!--<li><a href="index.html">Home</a></li>-->
+                 <!--<li><a href="contact.html">Contact</a></li>-->
             </ul>
-
         </nav>
         
-        <!-- This is the menu button when the window is resized -->
         <p class="menu cta">Menu</p>
 
-        <!-- Nav Bar for Mobile-->
-        <div id="mobile__menu" class="overlay">
+        <div id="mobile__menu" class="mainoverlay">
             <a class="close">&times;</a>
-            <div class="overlay__content">
+            <div class="mainoverlay__content">
                 <a href="index.html">Home</a>
+                <!--<a href="contact.html">Contact</a>-->
             </div>
         </div>
 
@@ -64,13 +58,9 @@
 
     </header>
 
-        <!-- Fade Nav Bar (Underline Animation)-->
-
         <div class="moonspacefade"> <p>Launchday 05/01/22</p> </div>
 
         <h1 style="padding-top: 30px; display:grid; place-items:center; color:white; font-family: distant-galaxy; font-weight: 800; font-size: 2rem;" class="glitch">pCoder</h1> 
-
-        <!-- Das Ist Die Main Page -->
 
         <div class="boxpage">
         <div class="box">
@@ -102,13 +92,25 @@
         </div>
         
         <div class="btns">
-            <!-- <button id="button1" class="btns" onclick="location.href='https://shinobiplug.com/project-list0'">Amazing Frontend Design</button> -->
+            <button id="button1" class="btns" onclick="location.href='https://shinobiplug.com/project-list0'">Amazing Frontend Design</button>
             <button id="button2" class="btns" onclick="location.href='https://shinobiplug.com/project-list01'">Working Full Stack Web Application</button>
-            <!-- <button id="button3" class="btns" onclick="location.href='https://de.fiverr.com/shinobiplug?public_mode=true'">Hire A Professional Web Developer</button> -->
-            <button id="button3" class="btns" onclick="location.href='https://discord.gg/jtDfBeqgRr'">Message Me On Discord</button>
-            <!-- <button id="button5" class="btns" onclick="location.href='https://shinobiplug.com/forum'">Login / Register</button> -->
+            <button id="button3" class="btns" onclick="location.href='https://de.fiverr.com/shinobiplug?public_mode=true'">Hire A Professional Web Developer</button>
+            <button id="button3" class="btns" data-modal-target="#modal">Message Me On Discord</button>
+            <!--<button id="button5" class="btns" onclick="location.href='https://shinobiplug.com/forum'">Login / Register</button>-->
         </div>
+
         
+        <div class="modal" id="modal" style="background-color: #1b1b32; color: #f5f6f7;">
+          <div class="modal-header" >
+            <div class="title">Discord Tag</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            shinobiplug_#2723
+          </div>
+        </div>
+        <div id="secondoverlay"></div>
+        <script defer src="js/modal.js"></script>
     </body>
 
 </html>
