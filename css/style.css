@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    cursor: url(https://cdn.custom-cursor.com/db/4827/32/arrow2747.png), auto !important;
+    cursor: url(https://cdn.custom-cursor.com/db/13832/32/cute-ice-cream-and-cake-cursor.png) , auto !important;
   }
   
 html::-webkit-scrollbar {
@@ -23,6 +23,7 @@ body {
   background-color: #24252a;
   color:aliceblue;
   font-family: Montserrat, sans-serif;
+  
 
   /* alternativ */
   /*
@@ -124,7 +125,7 @@ body {
         background-color: #c921c7b5;
         border: none;
         border-radius: 50px;
-        cursor: pointer;
+        cursor: url(https://cdn.custom-cursor.com/db/13831/32/cute-ice-cream-and-cake-pointer.png),pointer!important;
         transition: all 0.3s ease 0s;
       }
       
@@ -179,7 +180,8 @@ body {
         right: 45px;
         font-size: 60px;
         color: #edf0f1;
-        cursor: pointer;
+        cursor: url(https://cdn.custom-cursor.com/db/13831/32/cute-ice-cream-and-cake-pointer.png),pointer!important;
+        
       }
 
       @media screen and (max-height: 450px) {
@@ -333,6 +335,7 @@ body {
   margin-bottom: 5px;
   display: inline-block;
   width: 100%;
+  
 }
 .btns button{
   width: 100%;
@@ -343,6 +346,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   transition: all 0.3s linear;
+  cursor:url(https://cdn.custom-cursor.com/db/13831/32/cute-ice-cream-and-cake-pointer.png),pointer!important;
 }
 
 /* first button id=1 */
@@ -510,7 +514,7 @@ body {
 }
 
 .modal-header .close-button {
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/13831/32/cute-ice-cream-and-cake-pointer.png),pointer!important;
   border: none;
   outline: none;
   background: none;
