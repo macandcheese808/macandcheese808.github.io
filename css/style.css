@@ -115,13 +115,13 @@ body {
       }
       
       .nav__links li a:hover {
-        color: #7600a9;
+        color: #ff00d0;
       }
       
       .cta {
         margin-left: 20px;
         padding: 9px 25px;
-        background-color: #7600a9;
+        background-color: #c921c7b5;
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -129,7 +129,7 @@ body {
       }
       
       .cta:hover {
-        background-color: rgba(118, 0, 169, 0.8);
+        background-color: rgba(255, 0, 208, 0.8);
       }
       
       /* Mobile Nav */
@@ -288,7 +288,7 @@ body {
 .box .quote i{
   margin-top: 10px;
   font-size: 16px;
-  color: #7600a9;
+  color: #ff00d0;
   font-weight: 800;
   
 }
@@ -296,7 +296,7 @@ body {
   margin: 10px 0;
   height: 150px;
   width: 150px;
-  background: #7600a9;
+  background: #ff00d0;
   padding: 3px;
   border-radius: 50%;
 }
@@ -373,9 +373,9 @@ body {
 
 /* second button id=3 */
 #button3{
-  color: #7600a9;
+  color: #ff00d0;
   background: #000000;
-  border: 2px solid #7600a9;
+  border: 2px solid #ff00d0;
 }
 
 #button3:hover{
@@ -386,15 +386,15 @@ body {
 
 /* second button id=4 */
 #button4{
-  color: #7600a9;
+  color: #ff00d0;
   background: #000000;
-  border: 2px solid #7600a9;
+  border: 2px solid #ff00d0;
 }
 
 #button4:hover{
-  color: #26b5cb;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #26b5cb;
+  border: 2px solid #15c6e1;
 }
 
 /* second button id=5 */
@@ -516,6 +516,7 @@ body {
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
+  color:white;
 }
 
 .modal-body {
