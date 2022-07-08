@@ -529,16 +529,21 @@ body {
   font-size:30px;
   padding-top: 40px;
   letter-spacing: 15px;
+  
 }
 
 .social-icons i::before{
-  color:#edf0f1;
+  background: transparent !important;
+  color: #ff00d0;
 }
 
 .social-icons i:active{
-  color:#edf0f1;
+  background: transparent !important;
+  color: #ff00d0;
 }
 
 .social-icons i:hover{
-  color:#edf0f1;
+  background: transparent !important;
+  color: #ff00d0;
 }
+
