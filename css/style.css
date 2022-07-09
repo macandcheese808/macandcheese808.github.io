@@ -14,7 +14,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #ff00d0;
+  background: #15c6e1;
   border-radius: 5rem;
 }
 
@@ -115,20 +115,24 @@ body {
       }
       
       .nav__links li a:hover {
-        color: #ff00d0;
+        color: #15c6e1;
       }
       
       .cta {
         margin-left: 20px;
         padding: 9px 25px;
-        background-color: #c921c7b5;
-        border: none;
-        border-radius: 50px;
+        color: #15c6e1;
+        background: #000000;
+        border: 1px solid #15c6e1;
+        border-radius: 10px;
         transition: all 0.3s ease 0s;
+        font-weight: 400;
       }
       
       .cta:hover {
-        background-color: rgba(255, 0, 208, 0.8);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #15c6e1;
+        border: 1px solid #000000;
       }
       
       /* Mobile Nav */
@@ -170,7 +174,7 @@ body {
       
       .mainoverlay a:hover,
       .mainoverlay a:focus {
-        color: #ff00d0;
+        color: #15c6e1;
       }
       .mainoverlay .close {
         position: absolute;
@@ -286,7 +290,7 @@ body {
 .box .quote i{
   margin-top: 10px;
   font-size: 16px;
-  color: #ff00d0;
+  color: #15c6e1;
   font-weight: 800;
   
 }
@@ -294,7 +298,7 @@ body {
   margin: 10px 0;
   height: 150px;
   width: 150px;
-  background: #ff00d0;
+  background: #15c6e1;
   padding: 3px;
   border-radius: 50%;
 }
@@ -333,9 +337,9 @@ body {
 
 /* first button id=1 */
 #button1{
-  color: #ff00d0;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #ff00d0;
+  border: 2px solid #15c6e1;
 }
 
 #button1:hover{
@@ -346,9 +350,9 @@ body {
 
 /* second button id=2 */
 #button2{
-  color: #ff00d0;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #ff00d0;
+  border: 2px solid #15c6e1;
 }
 
 #button2:hover{
@@ -359,9 +363,9 @@ body {
 
 /* second button id=3 */
 #button3{
-  color: #ff00d0;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #ff00d0;
+  border: 2px solid #15c6e1;
 }
 
 #button3:hover{
@@ -372,28 +376,28 @@ body {
 
 /* second button id=4 */
 #button4{
-  color: #ff00d0;
-  background: #000000;
-  border: 2px solid #ff00d0;
-}
-
-#button4:hover{
   color: #15c6e1;
   background: #000000;
   border: 2px solid #15c6e1;
 }
 
+#button4:hover{
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #ffffff;
+}
+
 /* second button id=5 */
 #button5{
-  color: #ff00d0;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #ff00d0;
+  border: 2px solid #15c6e1;
 }
 
 #button5:hover{
-  color: #ff00d0;
+  color: #7415e1;
   background: #000000;
-  border: 2px solid #ff00d0;
+  border: 2px solid #7415e1;
 }
 
 @media (max-width:1045px){
@@ -470,10 +474,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
   border-radius: 10px;
+  border: transparent 1px solid;
   z-index: 10;
-  background-color: white;
+  background-color: #24252a;
   width: 500px;
   max-width: 80%;
 }
@@ -534,16 +538,16 @@ body {
 
 .social-icons i::before{
   background: transparent !important;
-  color: #ff00d0;
+  color: #15c6e1;
 }
 
 .social-icons i:active{
   background: transparent !important;
-  color: #ff00d0;
+  color: #15c6e1;
 }
 
 .social-icons i:hover{
   background: transparent !important;
-  color: #ff00d0;
+  color: #15c6e1;
 }
 
