@@ -101,7 +101,7 @@ body {
       .cta,
       .mainoverlay__content a {
         font-family: "Montserrat", sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         color: #edf0f1;
         text-decoration: none;
       }
@@ -293,7 +293,7 @@ body {
   margin-top: 10px;
   font-size: 16px;
   color: #15c6e1;
-  font-weight: 800;
+  font-weight: 600;
   
 }
 .boxpage .box .image{
@@ -316,7 +316,7 @@ body {
   text-align: justify;
   margin-top: 8px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* Button Main Styling, Colors With ID */
@@ -506,7 +506,7 @@ body {
 
 .modal-header .title {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .modal-header .close-button {
@@ -523,7 +523,7 @@ body {
 
 .modal-body {
   padding: 10px 15px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 #secondoverlay {
@@ -568,7 +568,7 @@ body {
 #shoppy{
   --color: #359c4f;
   background-color: transparent;
-  font-weight: 800;
+  font-weight: 600;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -577,7 +577,6 @@ body {
   z-index: 1;
   font-size: 12px;
   border-radius: 6px;
-  font-weight: 500;
   color: var(--color);
   width: 65px;
   height: 25px;
@@ -688,6 +687,7 @@ body {
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
+  font-weight: 600;
 }
 
 input.input1 {
