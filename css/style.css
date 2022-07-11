@@ -214,6 +214,19 @@ body {
         }
       }
 
+.glitchontop h1{
+  padding-top: 100px; display:grid; place-items:center; color:white; font-family: distant-galaxy; font-weight: 800; font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+
+.glitchontop h1 {
+ padding-top: 30px;
+ display:grid; place-items:center; color:white; font-family: distant-galaxy; font-weight: 800; font-size: 2rem;
+}
+
+}
+
 /* Glitch Animation */
 .glitch {
   text-transform: uppercase;
