@@ -122,15 +122,15 @@ body {
         margin-left: 20px;
         padding: 9px 25px;
         color: #15c6e1;
-        background: #000000;
+        background: transparent;
         border: 1px solid #15c6e1;
         border-radius: 10px;
         transition: all 0.3s ease 0s;
-        font-weight: 400;
+        font-weight: 600;
       }
       
       .cta:hover {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: transparent;
         color: #ffffff;
         border: 1px solid #ffffff;
         border-radius: 40px;
@@ -333,7 +333,7 @@ body {
   outline: none;
   border-radius: 5px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   transition: all 0.3s linear;
 }
 
