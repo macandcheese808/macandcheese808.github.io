@@ -482,9 +482,9 @@ body {
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   border-radius: 10px;
-  border: transparent 1px solid;
+  border: solid 2px lightblue;
   z-index: 10;
-  background-color: #24252a;
+  background-color: rgba(36, 37, 42, 0.8);
   width: 500px;
   max-width: 80%;
 }
@@ -498,7 +498,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .modal-header .title {
@@ -510,13 +509,17 @@ body {
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 24px;
   color:white;
+}
+
+.close-button:hover{
+  color:#15c6e1;
 }
 
 .modal-body {
   padding: 10px 15px;
+  font-weight: 800;
 }
 
 #secondoverlay {
