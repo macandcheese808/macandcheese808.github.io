@@ -762,7 +762,7 @@ textarea.input1 + .shadow-input1 {
   border-radius: 25px;
 
   color: #15c6e1;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   border: 2px solid #15c6e1;
   font-weight: 600;
 
@@ -794,9 +794,9 @@ textarea.input1 + .shadow-input1 {
 }
 
 .contact1-form-btn:hover {
-  color: #00ff2f;
+  color: #15c6e1;
   background: #000000;
-  border: 2px solid #00ff2f;
+  border: 2px solid #15c6e1;
   border-radius: 40px;
   transition: 1s;
   font-weight: 600;
