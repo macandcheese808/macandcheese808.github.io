@@ -221,7 +221,7 @@ body {
 @media only screen and (max-width: 600px){
 
 .glitchontop h1 {
- padding-top: 30px;
+ padding-top: 50px;
  display:grid; place-items:center; color:white; font-family: distant-galaxy; font-weight: 800; font-size: 2rem;
 }
 
