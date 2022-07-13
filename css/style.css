@@ -744,6 +744,7 @@ textarea.input1 + .shadow-input1 {
   background: rgba(0, 0, 0, 0.3);
   font-family: Montserrat-Bold;
   font-size: 18px;
+  font-weight: 600;
   line-height: 1.5;
   color: #15c6e1;
   border: 2px solid #15c6e1;
@@ -782,7 +783,7 @@ textarea.input1 + .shadow-input1 {
   border-radius: 25px;
 
   color: #15c6e1;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   border: 2px solid #15c6e1;
   font-weight: 600;
 
