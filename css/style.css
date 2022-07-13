@@ -376,53 +376,54 @@ header {
 }
 
 #button1:hover{
-  color: #f7a501;
-  background: #000000;
-  border: 2px solid #f7a501;
-}
-
-/* second button id=2 */
-#button2{
-  color: #15c6e1;
-  background: #000000;
-  border: 2px solid #15c6e1;
-}
-
-#button2:hover{
   color: #ffffff;
   background: #000000;
   border: 2px solid #ffffff;
+  border-radius: 40px;
+  transition: 1s;
+}
+
+/* second button id=2 */
+#button-tyler{
+  color: #ef5db0;
+  background: #000000;
+  border: 2px solid #ef5db0;
+}
+
+#button-tyler:hover{
+  color: #ff9500;
+  background: #000000;
+  border: 2px solid #ff9500;
   border-radius: 40px;
   transition: 1s;
 }
 
 /* second button id=3 */
-#button3{
-  color: #15c6e1;
+#button-snoop{
+  color: #00ff1a;
   background: #000000;
-  border: 2px solid #15c6e1;
-
+  border: 2px solid #00ff1a;
 }
 
-#button3:hover{
-  color: #04ec04;
-  background: #000000;
-  border: 2px solid #04ec04;
+#button-snoop:hover{
+  color: #0066ff;
+  background: rgb(0, 0, 0);
+  border: 2px solid #0066ff;
   border-radius: 40px;
   transition: 1s;
 }
 
 /* second button id=4 */
-#button4{
-  color: #15c6e1;
+#button-eminem{
+  color: rgb(11, 244, 159);
   background: #000000;
-  border: 2px solid #15c6e1;
+  border: 2px solid rgb(11, 244, 159);
 }
 
-#button4:hover{
-  color: #ffffff;
+#button-eminem:hover{
+  color: #0099ff;
   background: #000000;
-  border: 2px solid #ffffff;
+  border: 2px solid #0099ff;
   border-radius: 40px;
   transition: 1s;
 }
@@ -435,9 +436,9 @@ header {
 }
 
 #button5:hover{
-  color: #7415e1;
+  color: #bb00ff;
   background: #000000;
-  border: 2px solid #7415e1;
+  border: 2px solid #bb00ff;
   border-radius: 40px;
   transition: 1s;
 }
@@ -643,8 +644,7 @@ header {
 }
 
 .description .info{
- font-weight: 500;
- font-size: 18px;
+ font-size: 16px;
 }
 
 .contact1 {

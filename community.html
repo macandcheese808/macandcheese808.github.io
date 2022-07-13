@@ -4,7 +4,7 @@
 
     <head> 
 
-        <title>Products</title> 
+        <title>Community</title> 
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="title" content="Hello Friend..." />
@@ -46,7 +46,7 @@
         <nav>
             <ul class="nav__links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -57,7 +57,7 @@
             <a class="close">&times;</a>
             <div class="mainoverlay__content">
                 <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
+                <a href="community.html">Community</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
@@ -70,11 +70,50 @@
             <p>-</p> 
         </div>
 
-        <h1 class="glitch" style="text-align: center; margin: 100px 0">Comming Soon</h1>
-
-        <div class="image" style="display:flex; justify-content:center;">
-            <img src="images/narutovsfluffy.gif">
+        <div class="glitchontop">
+            <h1 class="glitch">Community</h1> 
         </div>
+
+       
+            
+        <div class="boxpage">
+        <div class="box">
+          <div class="btns">
+            <br>
+            <button id="button-tyler" class="btns" onclick="location.href='tyler.html'">Tyler The Creator</button>
+            <br>
+            <button id="button-eminem" class="btns" onclick="location.href='eminem.html'">Slim Shady</button>
+            <br>
+            <button id="button-snoop" class="btns" onclick="location.href='snoop.html'">Snoop Dogg</button>
+            <br>
+            <button id="button5" class="btns" data-modal-target="#modaltwo">Claim Your Profile Today</button>
+            <br>
+            </div>
+        </div>
+        </div>        
+
+        <div class="modal" id="modaltwo">
+            <div class="modal-header">
+              <div class="title">How To Claim A Profile</div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="description">
+                <div class="info">1. Fill Out The <a href="contact.html" style="color:#15c6e1; text-decoration: none;">Contact</a> Formula</div>
+                <br>
+                <div class="info">2. Send Your Profil Picture As A URL</div>
+                <br>
+                <div class="info">3. Link All Your Social Medias</div>
+                <br>
+                <div class="info">4. Wait For Completion</div>
+                <br>
+                <div class="info">5. Enjoy</div>
+                <br>
+            </div>
+        </div>
+
+        <div id="secondoverlay"></div>
+        
+        <script defer src="js/modal.js"></script>
 
     </body>
 
